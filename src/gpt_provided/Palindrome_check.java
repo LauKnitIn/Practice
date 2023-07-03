@@ -8,7 +8,7 @@ public class Palindrome_check {
 		
 		System.out.println("Enter the text you would like to check");//Print instruction
 		String originalWord = textInput.nextLine();//To save the text
-		int letterCount = originalWord.length();//Variable to know the amount of characters in text
+		int letterCount = originalWord.length();//To know the amount of characters in text
 		String newWord = ""; //Will save the formed word when putting the letters backwards
 		
 		while(letterCount != 0) {//While cycle to take out of the text each letter
