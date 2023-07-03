@@ -8,8 +8,8 @@ public class Even_odd {
 		/*Print message asking
 		 for the number*/
 		System.out.println("write the number you would like to check");
-		int num = input.nextInt();//Variable to save the number to check
-		int numberBefore = num-1; //Variable to know where to stop division
+		int num = input.nextInt();//Save the number to check
+		int numberBefore = num-1; //To know where to stop division
 		
 		//Actual program
 		
@@ -17,9 +17,9 @@ public class Even_odd {
 		 * by any number besides itself and one*/
 		
 		for (int divisor = 2; divisor <= numberBefore; divisor++) {
-			int MODresult = num%divisor; //Variable to know the remainder of the operation
+			int MODresult = num%divisor; //To know the remainder of the operation
 			if (MODresult == 0) {//if the remainder is 0
-				System.out.println("The number is even");//then the number is odd
+				System.out.println("The number is even");//then the number is even
 				break;//Breaks the cycle cause there is no need to check for the rest of numbers
 			}else{ // else checks if the remainder is different of zero
 				if(MODresult != 0) {
