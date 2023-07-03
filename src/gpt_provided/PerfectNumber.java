@@ -22,5 +22,6 @@ public class PerfectNumber {
 		}else {//If it doesn't
 			System.out.println("The input number is not perfect");
 		}
+		input.close();
 	}
 }

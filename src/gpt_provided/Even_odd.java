@@ -10,9 +10,9 @@ public class Even_odd {
 		System.out.println("write the number you would like to check");
 		int num = input.nextInt();//Save the number to check		
 		//Actual program
-		if(num%2 == 0) {
+		if(num%2 == 0) {//If the number is divisible by two
 			System.out.println("the entered number is even");
-		}else {
+		}else {//otherwise
 			System.out.println("the entered number is odd");
 		}	
 		input.close();//Closing Scanner
