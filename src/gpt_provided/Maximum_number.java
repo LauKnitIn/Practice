@@ -25,8 +25,7 @@ public static void main(String[] args) {
 		//For loop to array all elements not only the consequent ones
 		for(int repetition = 0; repetition < numArray.length; repetition++) {
 			//For loop to compare positions and swap numbers in the array
-			for(int position = 0; position <= numArray.length; position++) {
-				
+			for(int position = 0; position < numArray.length; position++) {
 				if(position+1<=numArray.length-1) {//Making sure to access an existing position
 					if(numArray[position]<numArray[position+1]) {//To sort by greatest to smallest
 						aux = numArray[position];//Save the actual value to empty that position
